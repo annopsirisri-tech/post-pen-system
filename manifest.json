@@ -1,0 +1,55 @@
+{
+  "project": "Post Pen System Website",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 313,
+      "sha256": "c11d72167f850f3ef6908ddc7ecb5c54e71ec28475465ef7c4260b6d90d7836f"
+    },
+    {
+      "path": "assets/app-icon.png",
+      "size_bytes": 869636,
+      "sha256": "bbcf974a34439bca3baeb2be87becd10bf37ec9e70c7691e29289d3acb7bb53d"
+    },
+    {
+      "path": "contact.html",
+      "size_bytes": 2566,
+      "sha256": "94496b98097e265adb92c31704e64b501f1ae869badc0745934a14ddaf023457"
+    },
+    {
+      "path": "data-deletion.html",
+      "size_bytes": 3942,
+      "sha256": "542412cab947fc8b04c7925d78311ac0fda54cadfc84ec84e9f44a5fe06b1cb6"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 6557,
+      "sha256": "f8dfd474abccc46e2e87b6fe9a1a69be0f08c4a68096d4e287ef2c5769aab503"
+    },
+    {
+      "path": "privacy.html",
+      "size_bytes": 7385,
+      "sha256": "7b91a405fb839f914afd5a028cb327f7e1e33bfd053a52cb50c3782523083753"
+    },
+    {
+      "path": "styles.css",
+      "size_bytes": 4829,
+      "sha256": "a5802247f23fabb742b5e97a5e2e2af2e1362e04a320c53f8db8b379f3991673"
+    },
+    {
+      "path": "terms.html",
+      "size_bytes": 6979,
+      "sha256": "bcc6f76b0ef4a1681d1c49bf2c2ca4176d90b197bb094f9e0722cb54f5b5bf3f"
+    },
+    {
+      "path": "คำแนะนำการอัปโหลด.txt",
+      "size_bytes": 1708,
+      "sha256": "7ebfa11ee223e514c1c16b4f068ed3cad52b4cf6245cb9484cb5161004c79d95"
+    }
+  ]
+}

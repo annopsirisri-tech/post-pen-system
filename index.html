@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>โพสเป็นระบบ | Post Pen System</title>
+  <meta name="description" content="Desktop content management tool for creators to preview unique videos, schedule content, and review publishing results.">
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/app-icon.png" alt="Post Pen System app icon">
+      <span>โพสเป็นระบบ · Post Pen System</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">หน้าแรก</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="data-deletion.html">ลบข้อมูล</a>
+      <a href="contact.html">ติดต่อ</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="container hero">
+    <div>
+      <span class="eyebrow">Desktop content management · อยู่ระหว่างการพัฒนาและทดสอบ</span>
+      <h1><span class="gradient-text">โพสเป็นระบบ</span><br>Post Pen System</h1>
+      <p class="lead">
+        เครื่องมือบนคอมพิวเตอร์สำหรับครีเอเตอร์ ช่วยจัดเตรียมวิดีโอที่ไม่ซ้ำ
+        ตรวจพรีวิว จัดคิวเวลา และตรวจสอบผลการเผยแพร่จากบัญชีที่ผู้ใช้เชื่อมต่อและอนุญาตด้วยตนเอง
+      </p>
+      <div class="actions">
+        <a class="button button-primary" href="#features">ดูความสามารถ</a>
+        <a class="button button-secondary" href="privacy.html">อ่านนโยบายความเป็นส่วนตัว</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="assets/app-icon.png" alt="โลโก้โพสเป็นระบบ">
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="status">
+      <strong>สถานะโครงการ:</strong>
+      <span>
+        ระบบกำลังอยู่ในขั้นพัฒนาและทดสอบ Sandbox การเชื่อมบัญชีและการเผยแพร่จริง
+        จะทำงานเฉพาะเมื่อผู้ใช้กดอนุญาตผ่านกระบวนการอย่างเป็นทางการของแพลตฟอร์ม
+      </span>
+    </div>
+  </section>
+
+  <section id="features" class="container section">
+    <h2>ความสามารถที่ออกแบบไว้</h2>
+    <p class="section-intro">
+      เน้นการควบคุมโดยผู้ใช้ ความโปร่งใสก่อนโพสต์ และการป้องกันเนื้อหาซ้ำข้ามบัญชี
+    </p>
+    <div class="grid">
+      <article class="card">
+        <h3>เชื่อมบัญชีอย่างเป็นทางการ</h3>
+        <p>ผู้ใช้ล็อกอินและอนุญาตบัญชีของตนเองผ่าน OAuth โดยไม่ใช้คุกกี้หรือการดึงเซสชันจากเบราว์เซอร์</p>
+      </article>
+      <article class="card">
+        <h3>พรีวิวก่อนเผยแพร่</h3>
+        <p>ตรวจวิดีโอ คำบรรยาย บัญชีปลายทาง ความเป็นส่วนตัว และตัวเลือกการมีส่วนร่วมก่อนยืนยัน</p>
+      </article>
+      <article class="card">
+        <h3>จัดคิวและตรวจผล</h3>
+        <p>จัดเวลาโพสต์ ติดตามสถานะ และเก็บบันทึกผลโดยไม่ย้ายไฟล์ต้นทางจนกว่าจะยืนยันว่ากระบวนการสำเร็จ</p>
+      </article>
+      <article class="card">
+        <h3>Unique Content 1:1</h3>
+        <p>หนึ่งวิดีโอใช้กับหนึ่งบัญชีเท่านั้น เพื่อช่วยลดการเผยแพร่เนื้อหาซ้ำและลดความเสี่ยงด้านสแปม</p>
+      </article>
+      <article class="card">
+        <h3>ผู้ใช้เป็นผู้ควบคุม</h3>
+        <p>ผู้ใช้เลือกบัญชี ไฟล์ เวลา และการตั้งค่าทุกครั้ง พร้อมสามารถตัดการเชื่อมต่อหรือลบข้อมูลได้</p>
+      </article>
+      <article class="card">
+        <h3>รายงานภาษาไทย</h3>
+        <p>แสดงสถานะการเชื่อมต่อ การอัปโหลด การประมวลผล และสาเหตุความผิดพลาดในภาษาที่เข้าใจง่าย</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>หลักการของระบบ</h2>
+    <p class="section-intro">
+      ไม่ดึงคุกกี้ ไม่อ่านเซสชัน ไม่โพสต์โดยไม่มีการอนุญาต และไม่ส่งวิดีโอเดียวกันไปยังหลายบัญชี
+    </p>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="data-deletion.html">Data Deletion</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>© 2026 Post Pen System. Independent creator tool currently under development.</div>
+  </div>
+</footer>
+
+</body>
+</html>

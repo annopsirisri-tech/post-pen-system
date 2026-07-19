@@ -1,0 +1,52 @@
+﻿วิธีอัปโหลดเว็บไซต์ขึ้น GitHub
+================================
+
+1. แตกไฟล์ post-pen-system-website.zip
+2. เปิด Repository:
+   https://github.com/annopsirisri-tech/post-pen-system
+3. กด Add file
+4. เลือก Upload files
+5. เปิดโฟลเดอร์ที่แตกไฟล์ แล้วเลือกทั้งหมด:
+   - assets
+   - index.html
+   - privacy.html
+   - terms.html
+   - data-deletion.html
+   - contact.html
+   - styles.css
+   - .nojekyll
+   - README.md
+6. ลากไฟล์ทั้งหมดลงในหน้า Upload files
+7. ที่ Commit message ใช้:
+   Add official Post Pen System website
+8. เลือก Commit directly to the main branch
+9. กด Commit changes
+
+วิธีเปิด GitHub Pages
+=====================
+
+1. กลับหน้า Repository
+2. กด Settings
+3. เมนูซ้าย Code and automation > Pages
+4. Source เลือก Deploy from a branch
+5. Branch เลือก main
+6. Folder เลือก /(root)
+7. กด Save
+8. รอประมาณ 1–10 นาที
+9. เว็บไซต์ควรเปิดได้ที่:
+   https://annopsirisri-tech.github.io/post-pen-system/
+
+URL สำหรับกรอก TikTok Sandbox
+==============================
+
+Desktop Website URL:
+https://annopsirisri-tech.github.io/post-pen-system/
+
+Terms of Service URL:
+https://annopsirisri-tech.github.io/post-pen-system/terms.html
+
+Privacy Policy URL:
+https://annopsirisri-tech.github.io/post-pen-system/privacy.html
+
+Data Deletion URL:
+https://annopsirisri-tech.github.io/post-pen-system/data-deletion.html
